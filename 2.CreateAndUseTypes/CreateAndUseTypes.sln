@@ -1,0 +1,157 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.24_ImplicitExplicitConversionOperator", "2.24_ImplicitExplicitConversionOperator\2.24_ImplicitExplicitConversionOperator.csproj", "{03D5A91F-CB6C-4B78-A16B-7BBA84D43F7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1_FlagAttributeForAnEnum", "2.1_FlagAttributeForAnEnum\2.1_FlagAttributeForAnEnum.csproj", "{F4170A4B-E484-46C8-934E-959868996EDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.48_HidingAMethodWithNewKeyword", "2.48_HidingAMethodWithNewKeyword\2.48_HidingAMethodWithNewKeyword.csproj", "{37C48148-6AEA-4119-B63E-1A7F2F6E0EF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.54_IComparable", "2.54_IComparable\2.54_IComparable.csproj", "{4A705E72-4D08-4371-AD53-EBECAA3427DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.56_IEnumerable", "2.56_IEnumerable\2.56_IEnumerable.csproj", "{365DEC86-D032-439C-A81A-AD5A0A67F8ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.61_Reflection_IsAttributeDefined", "2.61_Reflection_IsAttributeDefined\2.61_Reflection_IsAttributeDefined.csproj", "{7C98D86C-EB23-4238-AAF1-E668D2674AFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.62_Reflection_GetSpecificAttribute", "2.62_Reflection_GetSpecificAttribute\2.62_Reflection_GetSpecificAttribute.csproj", "{6999729F-1FD6-48D3-AAF9-CCA945F82A2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.72_Reflection_GetValueOfField", "2.72_Reflection_GetValueOfField\2.72_Reflection_GetValueOfField.csproj", "{1AA44422-087C-4E60-8F38-291D9C56DD69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.73_Reflection_ExecuteAMethod", "2.73_Reflection_ExecuteAMethod\2.73_Reflection_ExecuteAMethod.csproj", "{CA8EA492-E48A-4FB4-9ABD-385C3D37259E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.74_CodeDOM", "2.74_CodeDOM\2.74_CodeDOM.csproj", "{8A53871A-E785-4717-B5E5-3E61D0AA16DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.78_ExpressionTree", "2.78_ExpressionTree\2.78_ExpressionTree.csproj", "{FF6BC090-5367-4C80-9C53-EE8DDD1DA797}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.84_IDisposableAndFinalizer", "2.84_IDisposableAndFinalizer\2.84_IDisposableAndFinalizer.csproj", "{DE2ABAAB-3107-4D94-8FC2-3215E9912FCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.85_WeakReference", "2.85_WeakReference\2.85_WeakReference.csproj", "{FD77FC5D-8DF5-4E04-AD87-BB104E9E3462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.89_StringWriter_and_StringReader", "2.89_StringWriter_and_StringReader\2.89_StringWriter_and_StringReader.csproj", "{2EDA9EA1-FE4F-48F2-8DF1-E0EDA9DAEB1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.94_RegularExpression", "2.94_RegularExpression\2.94_RegularExpression.csproj", "{0CC5C8A9-56B4-4656-BA10-D1CF9CA033D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03D5A91F-CB6C-4B78-A16B-7BBA84D43F7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03D5A91F-CB6C-4B78-A16B-7BBA84D43F7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03D5A91F-CB6C-4B78-A16B-7BBA84D43F7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03D5A91F-CB6C-4B78-A16B-7BBA84D43F7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4170A4B-E484-46C8-934E-959868996EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4170A4B-E484-46C8-934E-959868996EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4170A4B-E484-46C8-934E-959868996EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4170A4B-E484-46C8-934E-959868996EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37C48148-6AEA-4119-B63E-1A7F2F6E0EF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37C48148-6AEA-4119-B63E-1A7F2F6E0EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37C48148-6AEA-4119-B63E-1A7F2F6E0EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37C48148-6AEA-4119-B63E-1A7F2F6E0EF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A705E72-4D08-4371-AD53-EBECAA3427DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A705E72-4D08-4371-AD53-EBECAA3427DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A705E72-4D08-4371-AD53-EBECAA3427DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A705E72-4D08-4371-AD53-EBECAA3427DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{365DEC86-D032-439C-A81A-AD5A0A67F8ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{365DEC86-D032-439C-A81A-AD5A0A67F8ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{365DEC86-D032-439C-A81A-AD5A0A67F8ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{365DEC86-D032-439C-A81A-AD5A0A67F8ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C98D86C-EB23-4238-AAF1-E668D2674AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C98D86C-EB23-4238-AAF1-E668D2674AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C98D86C-EB23-4238-AAF1-E668D2674AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C98D86C-EB23-4238-AAF1-E668D2674AFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6999729F-1FD6-48D3-AAF9-CCA945F82A2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6999729F-1FD6-48D3-AAF9-CCA945F82A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6999729F-1FD6-48D3-AAF9-CCA945F82A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6999729F-1FD6-48D3-AAF9-CCA945F82A2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AA44422-087C-4E60-8F38-291D9C56DD69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA44422-087C-4E60-8F38-291D9C56DD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AA44422-087C-4E60-8F38-291D9C56DD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA44422-087C-4E60-8F38-291D9C56DD69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA8EA492-E48A-4FB4-9ABD-385C3D37259E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA8EA492-E48A-4FB4-9ABD-385C3D37259E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA8EA492-E48A-4FB4-9ABD-385C3D37259E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA8EA492-E48A-4FB4-9ABD-385C3D37259E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A53871A-E785-4717-B5E5-3E61D0AA16DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A53871A-E785-4717-B5E5-3E61D0AA16DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A53871A-E785-4717-B5E5-3E61D0AA16DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A53871A-E785-4717-B5E5-3E61D0AA16DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF6BC090-5367-4C80-9C53-EE8DDD1DA797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF6BC090-5367-4C80-9C53-EE8DDD1DA797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF6BC090-5367-4C80-9C53-EE8DDD1DA797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF6BC090-5367-4C80-9C53-EE8DDD1DA797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE2ABAAB-3107-4D94-8FC2-3215E9912FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE2ABAAB-3107-4D94-8FC2-3215E9912FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE2ABAAB-3107-4D94-8FC2-3215E9912FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE2ABAAB-3107-4D94-8FC2-3215E9912FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD77FC5D-8DF5-4E04-AD87-BB104E9E3462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD77FC5D-8DF5-4E04-AD87-BB104E9E3462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD77FC5D-8DF5-4E04-AD87-BB104E9E3462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD77FC5D-8DF5-4E04-AD87-BB104E9E3462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EDA9EA1-FE4F-48F2-8DF1-E0EDA9DAEB1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EDA9EA1-FE4F-48F2-8DF1-E0EDA9DAEB1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EDA9EA1-FE4F-48F2-8DF1-E0EDA9DAEB1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EDA9EA1-FE4F-48F2-8DF1-E0EDA9DAEB1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CC5C8A9-56B4-4656-BA10-D1CF9CA033D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC5C8A9-56B4-4656-BA10-D1CF9CA033D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC5C8A9-56B4-4656-BA10-D1CF9CA033D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC5C8A9-56B4-4656-BA10-D1CF9CA033D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 16
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://gofightnguyen.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = 2.24_ImplicitExplicitConversionOperator\\2.24_ImplicitExplicitConversionOperator.csproj
+		SccProjectName1 = 2.24_ImplicitExplicitConversionOperator
+		SccLocalPath1 = 2.24_ImplicitExplicitConversionOperator
+		SccProjectUniqueName2 = 2.1_FlagAttributeForAnEnum\\2.1_FlagAttributeForAnEnum.csproj
+		SccProjectName2 = 2.1_FlagAttributeForAnEnum
+		SccLocalPath2 = 2.1_FlagAttributeForAnEnum
+		SccProjectUniqueName3 = 2.48_HidingAMethodWithNewKeyword\\2.48_HidingAMethodWithNewKeyword.csproj
+		SccProjectName3 = 2.48_HidingAMethodWithNewKeyword
+		SccLocalPath3 = 2.48_HidingAMethodWithNewKeyword
+		SccProjectUniqueName4 = 2.54_IComparable\\2.54_IComparable.csproj
+		SccProjectName4 = 2.54_IComparable
+		SccLocalPath4 = 2.54_IComparable
+		SccProjectUniqueName5 = 2.56_IEnumerable\\2.56_IEnumerable.csproj
+		SccProjectName5 = 2.56_IEnumerable
+		SccLocalPath5 = 2.56_IEnumerable
+		SccProjectUniqueName6 = 2.61_Reflection_IsAttributeDefined\\2.61_Reflection_IsAttributeDefined.csproj
+		SccProjectName6 = 2.61_Reflection_IsAttributeDefined
+		SccLocalPath6 = 2.61_Reflection_IsAttributeDefined
+		SccProjectUniqueName7 = 2.62_Reflection_GetSpecificAttribute\\2.62_Reflection_GetSpecificAttribute.csproj
+		SccProjectName7 = 2.62_Reflection_GetSpecificAttribute
+		SccLocalPath7 = 2.62_Reflection_GetSpecificAttribute
+		SccProjectUniqueName8 = 2.72_Reflection_GetValueOfField\\2.72_Reflection_GetValueOfField.csproj
+		SccProjectName8 = 2.72_Reflection_GetValueOfField
+		SccLocalPath8 = 2.72_Reflection_GetValueOfField
+		SccProjectUniqueName9 = 2.73_Reflection_ExecuteAMethod\\2.73_Reflection_ExecuteAMethod.csproj
+		SccProjectName9 = 2.73_Reflection_ExecuteAMethod
+		SccLocalPath9 = 2.73_Reflection_ExecuteAMethod
+		SccProjectUniqueName10 = 2.74_CodeDOM\\2.74_CodeDOM.csproj
+		SccProjectName10 = 2.74_CodeDOM
+		SccLocalPath10 = 2.74_CodeDOM
+		SccProjectUniqueName11 = 2.78_ExpressionTree\\2.78_ExpressionTree.csproj
+		SccProjectName11 = 2.78_ExpressionTree
+		SccLocalPath11 = 2.78_ExpressionTree
+		SccProjectUniqueName12 = 2.84_IDisposableAndFinalizer\\2.84_IDisposableAndFinalizer.csproj
+		SccProjectName12 = 2.84_IDisposableAndFinalizer
+		SccLocalPath12 = 2.84_IDisposableAndFinalizer
+		SccProjectUniqueName13 = 2.85_WeakReference\\2.85_WeakReference.csproj
+		SccProjectName13 = 2.85_WeakReference
+		SccLocalPath13 = 2.85_WeakReference
+		SccProjectUniqueName14 = 2.89_StringWriter_and_StringReader\\2.89_StringWriter_and_StringReader.csproj
+		SccProjectName14 = 2.89_StringWriter_and_StringReader
+		SccLocalPath14 = 2.89_StringWriter_and_StringReader
+		SccProjectUniqueName15 = 2.94_RegularExpression\\2.94_RegularExpression.csproj
+		SccProjectName15 = 2.94_RegularExpression
+		SccLocalPath15 = 2.94_RegularExpression
+	EndGlobalSection
+EndGlobal

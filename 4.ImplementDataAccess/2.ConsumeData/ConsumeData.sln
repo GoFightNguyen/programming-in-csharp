@@ -1,0 +1,124 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.32_SqlCommand", "4.32_SqlCommand\4.32_SqlCommand.csproj", "{345266F3-CB5B-4D1C-978E-849FF61E565C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.33_SqlCommand_MultipleResultSets", "4.33_SqlCommand_MultipleResultSets\4.33_SqlCommand_MultipleResultSets.csproj", "{9C0EA10A-4C23-40A8-92C4-1C7354FB0C25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.34_SqlCommand_ExecuteNonQuery", "4.34_SqlCommand_ExecuteNonQuery\4.34_SqlCommand_ExecuteNonQuery.csproj", "{E9B83FDC-F594-4B85-A25A-2DAD34A196E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.35_SqlCommand_Parameterized", "4.35_SqlCommand_Parameterized\4.35_SqlCommand_Parameterized.csproj", "{D774BF3E-FC43-467E-AD6D-CD1733434F8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.36_TransactionScope", "4.36_TransactionScope\4.36_TransactionScope.csproj", "{DB98069D-3C01-40B1-9442-25EDB9DDBAD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.39_WCF", "4.39_WCF\4.39_WCF.csproj", "{08E94B1B-C36F-444B-B81B-4099A5A33745}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.41_WCF_Consume", "4.41_WCF_Consume\4.41_WCF_Consume.csproj", "{089805AE-A882-4BBB-B3C7-A7881C1932B8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{08E94B1B-C36F-444B-B81B-4099A5A33745} = {08E94B1B-C36F-444B-B81B-4099A5A33745}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.43_XmlReader", "4.43_XmlReader\4.43_XmlReader.csproj", "{E405032D-20B5-4C2D-A84C-C9250F364A36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.44_XmlWriter", "4.44_XmlWriter\4.44_XmlWriter.csproj", "{360EF9CB-4ACD-437D-BF74-C34BAC4BEE33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.45_XmlDocument", "4.45_XmlDocument\4.45_XmlDocument.csproj", "{C03AFF4D-703E-404A-A8AD-AAEF8DFAE937}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.46_XPath_Query", "4.46_XPath_Query\4.46_XPath_Query.csproj", "{A6DF0B64-8793-4192-B826-8071D0BF1DA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{345266F3-CB5B-4D1C-978E-849FF61E565C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{345266F3-CB5B-4D1C-978E-849FF61E565C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{345266F3-CB5B-4D1C-978E-849FF61E565C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{345266F3-CB5B-4D1C-978E-849FF61E565C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C0EA10A-4C23-40A8-92C4-1C7354FB0C25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C0EA10A-4C23-40A8-92C4-1C7354FB0C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C0EA10A-4C23-40A8-92C4-1C7354FB0C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C0EA10A-4C23-40A8-92C4-1C7354FB0C25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9B83FDC-F594-4B85-A25A-2DAD34A196E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9B83FDC-F594-4B85-A25A-2DAD34A196E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9B83FDC-F594-4B85-A25A-2DAD34A196E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9B83FDC-F594-4B85-A25A-2DAD34A196E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D774BF3E-FC43-467E-AD6D-CD1733434F8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D774BF3E-FC43-467E-AD6D-CD1733434F8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D774BF3E-FC43-467E-AD6D-CD1733434F8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D774BF3E-FC43-467E-AD6D-CD1733434F8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB98069D-3C01-40B1-9442-25EDB9DDBAD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB98069D-3C01-40B1-9442-25EDB9DDBAD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB98069D-3C01-40B1-9442-25EDB9DDBAD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB98069D-3C01-40B1-9442-25EDB9DDBAD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08E94B1B-C36F-444B-B81B-4099A5A33745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08E94B1B-C36F-444B-B81B-4099A5A33745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08E94B1B-C36F-444B-B81B-4099A5A33745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08E94B1B-C36F-444B-B81B-4099A5A33745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{089805AE-A882-4BBB-B3C7-A7881C1932B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{089805AE-A882-4BBB-B3C7-A7881C1932B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{089805AE-A882-4BBB-B3C7-A7881C1932B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{089805AE-A882-4BBB-B3C7-A7881C1932B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E405032D-20B5-4C2D-A84C-C9250F364A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E405032D-20B5-4C2D-A84C-C9250F364A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E405032D-20B5-4C2D-A84C-C9250F364A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E405032D-20B5-4C2D-A84C-C9250F364A36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{360EF9CB-4ACD-437D-BF74-C34BAC4BEE33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{360EF9CB-4ACD-437D-BF74-C34BAC4BEE33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{360EF9CB-4ACD-437D-BF74-C34BAC4BEE33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{360EF9CB-4ACD-437D-BF74-C34BAC4BEE33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C03AFF4D-703E-404A-A8AD-AAEF8DFAE937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C03AFF4D-703E-404A-A8AD-AAEF8DFAE937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C03AFF4D-703E-404A-A8AD-AAEF8DFAE937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C03AFF4D-703E-404A-A8AD-AAEF8DFAE937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6DF0B64-8793-4192-B826-8071D0BF1DA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6DF0B64-8793-4192-B826-8071D0BF1DA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6DF0B64-8793-4192-B826-8071D0BF1DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6DF0B64-8793-4192-B826-8071D0BF1DA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 12
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://gofightnguyen.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = 4.32_SqlCommand\\4.32_SqlCommand.csproj
+		SccProjectName1 = 4.32_SqlCommand
+		SccLocalPath1 = 4.32_SqlCommand
+		SccProjectUniqueName2 = 4.33_SqlCommand_MultipleResultSets\\4.33_SqlCommand_MultipleResultSets.csproj
+		SccProjectName2 = 4.33_SqlCommand_MultipleResultSets
+		SccLocalPath2 = 4.33_SqlCommand_MultipleResultSets
+		SccProjectUniqueName3 = 4.34_SqlCommand_ExecuteNonQuery\\4.34_SqlCommand_ExecuteNonQuery.csproj
+		SccProjectName3 = 4.34_SqlCommand_ExecuteNonQuery
+		SccLocalPath3 = 4.34_SqlCommand_ExecuteNonQuery
+		SccProjectUniqueName4 = 4.35_SqlCommand_Parameterized\\4.35_SqlCommand_Parameterized.csproj
+		SccProjectName4 = 4.35_SqlCommand_Parameterized
+		SccLocalPath4 = 4.35_SqlCommand_Parameterized
+		SccProjectUniqueName5 = 4.36_TransactionScope\\4.36_TransactionScope.csproj
+		SccProjectName5 = 4.36_TransactionScope
+		SccLocalPath5 = 4.36_TransactionScope
+		SccProjectUniqueName6 = 4.39_WCF\\4.39_WCF.csproj
+		SccProjectName6 = 4.39_WCF
+		SccLocalPath6 = 4.39_WCF
+		SccProjectUniqueName7 = 4.41_WCF_Consume\\4.41_WCF_Consume.csproj
+		SccProjectName7 = 4.41_WCF_Consume
+		SccLocalPath7 = 4.41_WCF_Consume
+		SccProjectUniqueName8 = 4.43_XmlReader\\4.43_XmlReader.csproj
+		SccProjectName8 = 4.43_XmlReader
+		SccLocalPath8 = 4.43_XmlReader
+		SccProjectUniqueName9 = 4.44_XmlWriter\\4.44_XmlWriter.csproj
+		SccProjectName9 = 4.44_XmlWriter
+		SccLocalPath9 = 4.44_XmlWriter
+		SccProjectUniqueName10 = 4.45_XmlDocument\\4.45_XmlDocument.csproj
+		SccProjectName10 = 4.45_XmlDocument
+		SccLocalPath10 = 4.45_XmlDocument
+		SccProjectUniqueName11 = 4.46_XPath_Query\\4.46_XPath_Query.csproj
+		SccProjectName11 = 4.46_XPath_Query
+		SccLocalPath11 = 4.46_XPath_Query
+	EndGlobalSection
+EndGlobal

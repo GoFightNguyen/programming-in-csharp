@@ -1,0 +1,301 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.01_Thread_Create", "Threads_1.1\1.01_Thread_Create.csproj", "{9C8B1E2A-A86D-4B35-AB55-98CD6D8EFB3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.02_Thread_MakeBackgroundThread", "Threads_1.2_UsingABackgroundThread\1.02_Thread_MakeBackgroundThread.csproj", "{92E3C6BC-60CE-45DD-8A2E-5B32E56BDBFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.03_Thread_ParameterizedThreadStart", "Threads_1.3_UsingParameterizedThreadStart\1.03_Thread_ParameterizedThreadStart.csproj", "{DFFBEF59-50F2-4211-BACC-A64728584E32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.04_Thread_Stop", "Threads_1.4_StoppingAThread\1.04_Thread_Stop.csproj", "{89012A0D-D3A3-43AC-88AE-09644C187A6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.05_ThreadStaticAttribute", "Threads_1.5_ThreadStaticAttribute\1.05_ThreadStaticAttribute.csproj", "{F2D1CC16-B18F-4898-B690-87975E0B17B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.06_ThreadLocal", "Threads_1.6_ThreadLocal\1.06_ThreadLocal.csproj", "{11D2DAA2-732D-49DC-9EB9-DEE59423E6E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.07_ThreadPools_QueuingWorkToThreadPool", "1.7_ThreadPools_QueuingWorkToThreadPool\1.07_ThreadPools_QueuingWorkToThreadPool.csproj", "{6CBBD20A-610D-416D-AD8E-67F37D860533}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.08_Tasks_StartingANewTask", "1.8_Tasks_StartingANewTask\1.08_Tasks_StartingANewTask.csproj", "{B3BD1812-7F58-42AF-964F-E458B61C550D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.09_Tasks_TaskReturnsAValue", "1.9_Tasks_TaskReturnsAValue\1.09_Tasks_TaskReturnsAValue.csproj", "{FF80BD07-AF35-440F-B70A-D5A0BD0638BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.10_Tasks_Continuation", "1.10_Tasks_Continuation\1.10_Tasks_Continuation.csproj", "{24AF3933-9ECE-466C-82EE-6DEB73A2ED3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.11_Tasks_ConfiguredContinuations", "1.11_Tasks_ConfiguredContinuations\1.11_Tasks_ConfiguredContinuations.csproj", "{20EBD9F9-1142-43A4-99A1-59FB7ABCDB3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.12_Tasks_ChildTasks", "1.12_Tasks_ChildTasks\1.12_Tasks_ChildTasks.csproj", "{BC9CF616-610F-4051-B9DF-8D048EA7500D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.13_Tasks_TaskFactory", "1.13_Tasks_TaskFactory\1.13_Tasks_TaskFactory.csproj", "{5FBDD76A-DBE4-4355-AD37-9F18F59D9A70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.14_Tasks_WaitAll", "1.14_Tasks_WaitAll\1.14_Tasks_WaitAll.csproj", "{035D7432-BD2E-45A3-843F-9A2B1ED8BE6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.15_Tasks_WaitAny", "1.15_Tasks_WaitAny\1.15_Tasks_WaitAny.csproj", "{21D8AC3F-5136-40F1-AD9F-6B54C8F09CFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.16_Parallel_ForAndForEach", "1.16_Parallel_ForAndForEach\1.16_Parallel_ForAndForEach.csproj", "{12590B17-A586-41BF-9D52-FF7FABAEE4E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.17_Parallel_Break", "1.17_Parallel_Break\1.17_Parallel_Break.csproj", "{E1947B8C-04D8-4182-AB96-7AEB3E978D2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.18_AsyncAwait", "1.18_AsyncAwait\1.18_AsyncAwait.csproj", "{B66163EA-6683-4A4E-B262-ABA9E141A350}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.22_PLINQ_AsParallel", "1.22_PLINQ_AsParallel\1.22_PLINQ_AsParallel.csproj", "{23454DB3-73A4-4CCA-B4E8-5856063F5EB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.23_PLINQ_UnorderedParallelQuery", "1.23_PLINQ_UnorderedParallelQuery\1.23_PLINQ_UnorderedParallelQuery.csproj", "{EDC8A3DE-553D-4464-9417-9CE896F6C23D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.24_PLINQ_OrderedParallelQuery", "1.24_PLINQ_OrderedParallelQuery\1.24_PLINQ_OrderedParallelQuery.csproj", "{1532054C-06BC-4501-82FC-97B581069258}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.25_PLINQ_AsSequential", "1.25_PLINQ_AsSequential\1.25_PLINQ_AsSequential.csproj", "{5AB93DF7-27FA-4B01-A2CB-3150DCCB822E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.26_PLINQ_ForAll", "1.26_PLINQ_ForAll\1.26_PLINQ_ForAll.csproj", "{A447760B-53D0-4E3F-8CEA-C30C767001A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.27_PLINQ_AggregateException", "1.27_PLINQ_AggregateException\1.27_PLINQ_AggregateException.csproj", "{57C783E8-33E9-45EF-BDA1-4691CAC4D93D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.28_ConcurrentCollections_BlockingCollection", "1.28_ConcurrentCollections_BlockingCollection\1.28_ConcurrentCollections_BlockingCollection.csproj", "{AC63B5B3-A5EB-482F-B78E-FFEC8B033CB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.29_BlockingCollection_GetConsumingEnumerable", "1.29_BlockingCollection_GetConsumingEnumerable\1.29_BlockingCollection_GetConsumingEnumerable.csproj", "{97C34ECE-885B-4853-8A0F-F5CCB2440F39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.30_ConcurrentCollections_ConcurrentBag", "1.30_ConcurrentCollections_ConcurrentBag\1.30_ConcurrentCollections_ConcurrentBag.csproj", "{38F6C2F2-954B-4272-8C32-097095EA342C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.31_ConcurrentBag_Enumerating", "1.31_ConcurrentBag_Enumerating\1.31_ConcurrentBag_Enumerating.csproj", "{4FA35262-71D1-4A49-B6B3-D886414B62D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.32_ConcurrentCollections_ConcurrentStack", "1.32_ConcurrentCollections_ConcurrentStack\1.32_ConcurrentCollections_ConcurrentStack.csproj", "{243F6904-6536-4A75-BCCE-5D8B7714F053}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.33_ConcurrentCollections_ConcurrentQueue", "1.33_ConcurrentCollections_ConcurrentQueue\1.33_ConcurrentCollections_ConcurrentQueue.csproj", "{9AF2061C-C599-49BF-A342-ABD9F5485F97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.34_ConcurrentCollections_ConcurrentDictionary", "1.34_ConcurrentCollections_ConcurrentDictionary\1.34_ConcurrentCollections_ConcurrentDictionary.csproj", "{3E92EF29-8AD5-4E29-846C-80847A1A3D8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C8B1E2A-A86D-4B35-AB55-98CD6D8EFB3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C8B1E2A-A86D-4B35-AB55-98CD6D8EFB3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C8B1E2A-A86D-4B35-AB55-98CD6D8EFB3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C8B1E2A-A86D-4B35-AB55-98CD6D8EFB3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92E3C6BC-60CE-45DD-8A2E-5B32E56BDBFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92E3C6BC-60CE-45DD-8A2E-5B32E56BDBFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92E3C6BC-60CE-45DD-8A2E-5B32E56BDBFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92E3C6BC-60CE-45DD-8A2E-5B32E56BDBFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFFBEF59-50F2-4211-BACC-A64728584E32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFFBEF59-50F2-4211-BACC-A64728584E32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFFBEF59-50F2-4211-BACC-A64728584E32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFFBEF59-50F2-4211-BACC-A64728584E32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89012A0D-D3A3-43AC-88AE-09644C187A6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89012A0D-D3A3-43AC-88AE-09644C187A6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89012A0D-D3A3-43AC-88AE-09644C187A6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89012A0D-D3A3-43AC-88AE-09644C187A6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2D1CC16-B18F-4898-B690-87975E0B17B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2D1CC16-B18F-4898-B690-87975E0B17B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2D1CC16-B18F-4898-B690-87975E0B17B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2D1CC16-B18F-4898-B690-87975E0B17B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11D2DAA2-732D-49DC-9EB9-DEE59423E6E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11D2DAA2-732D-49DC-9EB9-DEE59423E6E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11D2DAA2-732D-49DC-9EB9-DEE59423E6E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11D2DAA2-732D-49DC-9EB9-DEE59423E6E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CBBD20A-610D-416D-AD8E-67F37D860533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CBBD20A-610D-416D-AD8E-67F37D860533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CBBD20A-610D-416D-AD8E-67F37D860533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CBBD20A-610D-416D-AD8E-67F37D860533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3BD1812-7F58-42AF-964F-E458B61C550D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3BD1812-7F58-42AF-964F-E458B61C550D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3BD1812-7F58-42AF-964F-E458B61C550D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3BD1812-7F58-42AF-964F-E458B61C550D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF80BD07-AF35-440F-B70A-D5A0BD0638BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF80BD07-AF35-440F-B70A-D5A0BD0638BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF80BD07-AF35-440F-B70A-D5A0BD0638BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF80BD07-AF35-440F-B70A-D5A0BD0638BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24AF3933-9ECE-466C-82EE-6DEB73A2ED3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24AF3933-9ECE-466C-82EE-6DEB73A2ED3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24AF3933-9ECE-466C-82EE-6DEB73A2ED3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24AF3933-9ECE-466C-82EE-6DEB73A2ED3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20EBD9F9-1142-43A4-99A1-59FB7ABCDB3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20EBD9F9-1142-43A4-99A1-59FB7ABCDB3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20EBD9F9-1142-43A4-99A1-59FB7ABCDB3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20EBD9F9-1142-43A4-99A1-59FB7ABCDB3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC9CF616-610F-4051-B9DF-8D048EA7500D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC9CF616-610F-4051-B9DF-8D048EA7500D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC9CF616-610F-4051-B9DF-8D048EA7500D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC9CF616-610F-4051-B9DF-8D048EA7500D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FBDD76A-DBE4-4355-AD37-9F18F59D9A70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FBDD76A-DBE4-4355-AD37-9F18F59D9A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FBDD76A-DBE4-4355-AD37-9F18F59D9A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FBDD76A-DBE4-4355-AD37-9F18F59D9A70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{035D7432-BD2E-45A3-843F-9A2B1ED8BE6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{035D7432-BD2E-45A3-843F-9A2B1ED8BE6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{035D7432-BD2E-45A3-843F-9A2B1ED8BE6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{035D7432-BD2E-45A3-843F-9A2B1ED8BE6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21D8AC3F-5136-40F1-AD9F-6B54C8F09CFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D8AC3F-5136-40F1-AD9F-6B54C8F09CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21D8AC3F-5136-40F1-AD9F-6B54C8F09CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D8AC3F-5136-40F1-AD9F-6B54C8F09CFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12590B17-A586-41BF-9D52-FF7FABAEE4E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12590B17-A586-41BF-9D52-FF7FABAEE4E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12590B17-A586-41BF-9D52-FF7FABAEE4E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12590B17-A586-41BF-9D52-FF7FABAEE4E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1947B8C-04D8-4182-AB96-7AEB3E978D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1947B8C-04D8-4182-AB96-7AEB3E978D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1947B8C-04D8-4182-AB96-7AEB3E978D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1947B8C-04D8-4182-AB96-7AEB3E978D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B66163EA-6683-4A4E-B262-ABA9E141A350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B66163EA-6683-4A4E-B262-ABA9E141A350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B66163EA-6683-4A4E-B262-ABA9E141A350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B66163EA-6683-4A4E-B262-ABA9E141A350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23454DB3-73A4-4CCA-B4E8-5856063F5EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23454DB3-73A4-4CCA-B4E8-5856063F5EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23454DB3-73A4-4CCA-B4E8-5856063F5EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23454DB3-73A4-4CCA-B4E8-5856063F5EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDC8A3DE-553D-4464-9417-9CE896F6C23D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC8A3DE-553D-4464-9417-9CE896F6C23D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC8A3DE-553D-4464-9417-9CE896F6C23D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC8A3DE-553D-4464-9417-9CE896F6C23D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1532054C-06BC-4501-82FC-97B581069258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1532054C-06BC-4501-82FC-97B581069258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1532054C-06BC-4501-82FC-97B581069258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1532054C-06BC-4501-82FC-97B581069258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AB93DF7-27FA-4B01-A2CB-3150DCCB822E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AB93DF7-27FA-4B01-A2CB-3150DCCB822E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AB93DF7-27FA-4B01-A2CB-3150DCCB822E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AB93DF7-27FA-4B01-A2CB-3150DCCB822E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A447760B-53D0-4E3F-8CEA-C30C767001A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A447760B-53D0-4E3F-8CEA-C30C767001A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A447760B-53D0-4E3F-8CEA-C30C767001A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A447760B-53D0-4E3F-8CEA-C30C767001A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57C783E8-33E9-45EF-BDA1-4691CAC4D93D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57C783E8-33E9-45EF-BDA1-4691CAC4D93D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57C783E8-33E9-45EF-BDA1-4691CAC4D93D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57C783E8-33E9-45EF-BDA1-4691CAC4D93D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC63B5B3-A5EB-482F-B78E-FFEC8B033CB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC63B5B3-A5EB-482F-B78E-FFEC8B033CB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC63B5B3-A5EB-482F-B78E-FFEC8B033CB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC63B5B3-A5EB-482F-B78E-FFEC8B033CB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97C34ECE-885B-4853-8A0F-F5CCB2440F39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C34ECE-885B-4853-8A0F-F5CCB2440F39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C34ECE-885B-4853-8A0F-F5CCB2440F39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C34ECE-885B-4853-8A0F-F5CCB2440F39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38F6C2F2-954B-4272-8C32-097095EA342C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38F6C2F2-954B-4272-8C32-097095EA342C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38F6C2F2-954B-4272-8C32-097095EA342C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38F6C2F2-954B-4272-8C32-097095EA342C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FA35262-71D1-4A49-B6B3-D886414B62D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FA35262-71D1-4A49-B6B3-D886414B62D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FA35262-71D1-4A49-B6B3-D886414B62D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FA35262-71D1-4A49-B6B3-D886414B62D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{243F6904-6536-4A75-BCCE-5D8B7714F053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{243F6904-6536-4A75-BCCE-5D8B7714F053}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{243F6904-6536-4A75-BCCE-5D8B7714F053}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{243F6904-6536-4A75-BCCE-5D8B7714F053}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AF2061C-C599-49BF-A342-ABD9F5485F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AF2061C-C599-49BF-A342-ABD9F5485F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AF2061C-C599-49BF-A342-ABD9F5485F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AF2061C-C599-49BF-A342-ABD9F5485F97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E92EF29-8AD5-4E29-846C-80847A1A3D8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E92EF29-8AD5-4E29-846C-80847A1A3D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E92EF29-8AD5-4E29-846C-80847A1A3D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E92EF29-8AD5-4E29-846C-80847A1A3D8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 32
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://gofightnguyen.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = 1.10_Tasks_Continuation\\1.10_Tasks_Continuation.csproj
+		SccProjectName1 = 1.10_Tasks_Continuation
+		SccLocalPath1 = 1.10_Tasks_Continuation
+		SccProjectUniqueName2 = 1.11_Tasks_ConfiguredContinuations\\1.11_Tasks_ConfiguredContinuations.csproj
+		SccProjectName2 = 1.11_Tasks_ConfiguredContinuations
+		SccLocalPath2 = 1.11_Tasks_ConfiguredContinuations
+		SccProjectUniqueName3 = 1.12_Tasks_ChildTasks\\1.12_Tasks_ChildTasks.csproj
+		SccProjectName3 = 1.12_Tasks_ChildTasks
+		SccLocalPath3 = 1.12_Tasks_ChildTasks
+		SccProjectUniqueName4 = 1.13_Tasks_TaskFactory\\1.13_Tasks_TaskFactory.csproj
+		SccProjectName4 = 1.13_Tasks_TaskFactory
+		SccLocalPath4 = 1.13_Tasks_TaskFactory
+		SccProjectUniqueName5 = 1.14_Tasks_WaitAll\\1.14_Tasks_WaitAll.csproj
+		SccProjectName5 = 1.14_Tasks_WaitAll
+		SccLocalPath5 = 1.14_Tasks_WaitAll
+		SccProjectUniqueName6 = 1.15_Tasks_WaitAny\\1.15_Tasks_WaitAny.csproj
+		SccProjectName6 = 1.15_Tasks_WaitAny
+		SccLocalPath6 = 1.15_Tasks_WaitAny
+		SccProjectUniqueName7 = 1.16_Parallel_ForAndForEach\\1.16_Parallel_ForAndForEach.csproj
+		SccProjectName7 = 1.16_Parallel_ForAndForEach
+		SccLocalPath7 = 1.16_Parallel_ForAndForEach
+		SccProjectUniqueName8 = 1.17_Parallel_Break\\1.17_Parallel_Break.csproj
+		SccProjectName8 = 1.17_Parallel_Break
+		SccLocalPath8 = 1.17_Parallel_Break
+		SccProjectUniqueName9 = 1.18_AsyncAwait\\1.18_AsyncAwait.csproj
+		SccProjectName9 = 1.18_AsyncAwait
+		SccLocalPath9 = 1.18_AsyncAwait
+		SccProjectUniqueName10 = 1.22_PLINQ_AsParallel\\1.22_PLINQ_AsParallel.csproj
+		SccProjectName10 = 1.22_PLINQ_AsParallel
+		SccLocalPath10 = 1.22_PLINQ_AsParallel
+		SccProjectUniqueName11 = 1.23_PLINQ_UnorderedParallelQuery\\1.23_PLINQ_UnorderedParallelQuery.csproj
+		SccProjectName11 = 1.23_PLINQ_UnorderedParallelQuery
+		SccLocalPath11 = 1.23_PLINQ_UnorderedParallelQuery
+		SccProjectUniqueName12 = 1.24_PLINQ_OrderedParallelQuery\\1.24_PLINQ_OrderedParallelQuery.csproj
+		SccProjectName12 = 1.24_PLINQ_OrderedParallelQuery
+		SccLocalPath12 = 1.24_PLINQ_OrderedParallelQuery
+		SccProjectUniqueName13 = 1.25_PLINQ_AsSequential\\1.25_PLINQ_AsSequential.csproj
+		SccProjectName13 = 1.25_PLINQ_AsSequential
+		SccLocalPath13 = 1.25_PLINQ_AsSequential
+		SccProjectUniqueName14 = 1.26_PLINQ_ForAll\\1.26_PLINQ_ForAll.csproj
+		SccProjectName14 = 1.26_PLINQ_ForAll
+		SccLocalPath14 = 1.26_PLINQ_ForAll
+		SccProjectUniqueName15 = 1.27_PLINQ_AggregateException\\1.27_PLINQ_AggregateException.csproj
+		SccProjectName15 = 1.27_PLINQ_AggregateException
+		SccLocalPath15 = 1.27_PLINQ_AggregateException
+		SccProjectUniqueName16 = 1.28_ConcurrentCollections_BlockingCollection\\1.28_ConcurrentCollections_BlockingCollection.csproj
+		SccProjectName16 = 1.28_ConcurrentCollections_BlockingCollection
+		SccLocalPath16 = 1.28_ConcurrentCollections_BlockingCollection
+		SccProjectUniqueName17 = 1.29_BlockingCollection_GetConsumingEnumerable\\1.29_BlockingCollection_GetConsumingEnumerable.csproj
+		SccProjectName17 = 1.29_BlockingCollection_GetConsumingEnumerable
+		SccLocalPath17 = 1.29_BlockingCollection_GetConsumingEnumerable
+		SccProjectUniqueName18 = 1.30_ConcurrentCollections_ConcurrentBag\\1.30_ConcurrentCollections_ConcurrentBag.csproj
+		SccProjectName18 = 1.30_ConcurrentCollections_ConcurrentBag
+		SccLocalPath18 = 1.30_ConcurrentCollections_ConcurrentBag
+		SccProjectUniqueName19 = 1.31_ConcurrentBag_Enumerating\\1.31_ConcurrentBag_Enumerating.csproj
+		SccProjectName19 = 1.31_ConcurrentBag_Enumerating
+		SccLocalPath19 = 1.31_ConcurrentBag_Enumerating
+		SccProjectUniqueName20 = 1.32_ConcurrentCollections_ConcurrentStack\\1.32_ConcurrentCollections_ConcurrentStack.csproj
+		SccProjectName20 = 1.32_ConcurrentCollections_ConcurrentStack
+		SccLocalPath20 = 1.32_ConcurrentCollections_ConcurrentStack
+		SccProjectUniqueName21 = 1.33_ConcurrentCollections_ConcurrentQueue\\1.33_ConcurrentCollections_ConcurrentQueue.csproj
+		SccProjectName21 = 1.33_ConcurrentCollections_ConcurrentQueue
+		SccLocalPath21 = 1.33_ConcurrentCollections_ConcurrentQueue
+		SccProjectUniqueName22 = 1.34_ConcurrentCollections_ConcurrentDictionary\\1.34_ConcurrentCollections_ConcurrentDictionary.csproj
+		SccProjectName22 = 1.34_ConcurrentCollections_ConcurrentDictionary
+		SccLocalPath22 = 1.34_ConcurrentCollections_ConcurrentDictionary
+		SccProjectUniqueName23 = Threads_1.1\\1.01_Thread_Create.csproj
+		SccProjectName23 = Threads_1.1
+		SccLocalPath23 = Threads_1.1
+		SccProjectUniqueName24 = Threads_1.2_UsingABackgroundThread\\1.02_Thread_MakeBackgroundThread.csproj
+		SccProjectName24 = Threads_1.2_UsingABackgroundThread
+		SccLocalPath24 = Threads_1.2_UsingABackgroundThread
+		SccProjectUniqueName25 = Threads_1.3_UsingParameterizedThreadStart\\1.03_Thread_ParameterizedThreadStart.csproj
+		SccProjectName25 = Threads_1.3_UsingParameterizedThreadStart
+		SccLocalPath25 = Threads_1.3_UsingParameterizedThreadStart
+		SccProjectUniqueName26 = Threads_1.4_StoppingAThread\\1.04_Thread_Stop.csproj
+		SccProjectName26 = Threads_1.4_StoppingAThread
+		SccLocalPath26 = Threads_1.4_StoppingAThread
+		SccProjectUniqueName27 = Threads_1.5_ThreadStaticAttribute\\1.05_ThreadStaticAttribute.csproj
+		SccProjectName27 = Threads_1.5_ThreadStaticAttribute
+		SccLocalPath27 = Threads_1.5_ThreadStaticAttribute
+		SccProjectUniqueName28 = Threads_1.6_ThreadLocal\\1.06_ThreadLocal.csproj
+		SccProjectName28 = Threads_1.6_ThreadLocal
+		SccLocalPath28 = Threads_1.6_ThreadLocal
+		SccProjectUniqueName29 = 1.7_ThreadPools_QueuingWorkToThreadPool\\1.07_ThreadPools_QueuingWorkToThreadPool.csproj
+		SccProjectName29 = 1.7_ThreadPools_QueuingWorkToThreadPool
+		SccLocalPath29 = 1.7_ThreadPools_QueuingWorkToThreadPool
+		SccProjectUniqueName30 = 1.8_Tasks_StartingANewTask\\1.08_Tasks_StartingANewTask.csproj
+		SccProjectName30 = 1.8_Tasks_StartingANewTask
+		SccLocalPath30 = 1.8_Tasks_StartingANewTask
+		SccProjectUniqueName31 = 1.9_Tasks_TaskReturnsAValue\\1.09_Tasks_TaskReturnsAValue.csproj
+		SccProjectName31 = 1.9_Tasks_TaskReturnsAValue
+		SccLocalPath31 = 1.9_Tasks_TaskReturnsAValue
+	EndGlobalSection
+EndGlobal

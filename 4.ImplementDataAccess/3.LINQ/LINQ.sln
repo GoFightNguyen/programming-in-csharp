@@ -1,0 +1,103 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.51_LambdaExpression", "4.51_AnonymousMethod\4.51_LambdaExpression.csproj", "{981F40DB-6828-41B5-8B92-E292791BEA53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.53_AnonymousType", "4.53_AnonymousType\4.53_AnonymousType.csproj", "{55782CE4-5122-4C41-BA84-0CFD0C9F822E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.60_GroupByAndProjection", "4.60_GroupByAndProjection\4.60_GroupByAndProjection.csproj", "{45D65351-3AFF-40D4-AD59-A8F9013F09B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.58_MultipleFromStatements", "4.58_MultipleFromStatements\4.58_MultipleFromStatements.csproj", "{2A04775D-8BD1-4207-8EAF-A95EEB2927EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.62_Paging_SkipAndTake", "4.62_Paging_SkipAndTake\4.62_Paging_SkipAndTake.csproj", "{931E3ED7-79AB-4864-81B7-BE1C778C90ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.65_QueryXml", "4.65_QueryXml\4.65_QueryXml.csproj", "{76AA0972-9A37-47C8-BF14-E2D8BE127C10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.66_QueryXml_WhereAndOrderBy", "4.66_QueryXml_WhereAndOrderBy\4.66_QueryXml_WhereAndOrderBy.csproj", "{3BA29F65-EB9D-4608-9FDE-CF5CFE4276EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.67_CreateXml", "4.67_CreateXml\4.67_CreateXml.csproj", "{0BF93399-DC68-4BE1-B6FB-3AE6F4DE1E99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.68_UpdateXml", "4.68_UpdateXml\4.68_UpdateXml.csproj", "{DDCA0165-A695-4C41-82AF-3D8A3F2E017D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{981F40DB-6828-41B5-8B92-E292791BEA53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{981F40DB-6828-41B5-8B92-E292791BEA53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{981F40DB-6828-41B5-8B92-E292791BEA53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{981F40DB-6828-41B5-8B92-E292791BEA53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55782CE4-5122-4C41-BA84-0CFD0C9F822E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55782CE4-5122-4C41-BA84-0CFD0C9F822E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55782CE4-5122-4C41-BA84-0CFD0C9F822E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55782CE4-5122-4C41-BA84-0CFD0C9F822E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45D65351-3AFF-40D4-AD59-A8F9013F09B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45D65351-3AFF-40D4-AD59-A8F9013F09B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45D65351-3AFF-40D4-AD59-A8F9013F09B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45D65351-3AFF-40D4-AD59-A8F9013F09B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A04775D-8BD1-4207-8EAF-A95EEB2927EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A04775D-8BD1-4207-8EAF-A95EEB2927EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A04775D-8BD1-4207-8EAF-A95EEB2927EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A04775D-8BD1-4207-8EAF-A95EEB2927EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{931E3ED7-79AB-4864-81B7-BE1C778C90ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{931E3ED7-79AB-4864-81B7-BE1C778C90ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{931E3ED7-79AB-4864-81B7-BE1C778C90ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{931E3ED7-79AB-4864-81B7-BE1C778C90ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76AA0972-9A37-47C8-BF14-E2D8BE127C10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76AA0972-9A37-47C8-BF14-E2D8BE127C10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76AA0972-9A37-47C8-BF14-E2D8BE127C10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76AA0972-9A37-47C8-BF14-E2D8BE127C10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BA29F65-EB9D-4608-9FDE-CF5CFE4276EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BA29F65-EB9D-4608-9FDE-CF5CFE4276EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BA29F65-EB9D-4608-9FDE-CF5CFE4276EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BA29F65-EB9D-4608-9FDE-CF5CFE4276EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BF93399-DC68-4BE1-B6FB-3AE6F4DE1E99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF93399-DC68-4BE1-B6FB-3AE6F4DE1E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF93399-DC68-4BE1-B6FB-3AE6F4DE1E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF93399-DC68-4BE1-B6FB-3AE6F4DE1E99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDCA0165-A695-4C41-82AF-3D8A3F2E017D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDCA0165-A695-4C41-82AF-3D8A3F2E017D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDCA0165-A695-4C41-82AF-3D8A3F2E017D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDCA0165-A695-4C41-82AF-3D8A3F2E017D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://gofightnguyen.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = 4.53_AnonymousType\\4.53_AnonymousType.csproj
+		SccProjectName1 = 4.53_AnonymousType
+		SccLocalPath1 = 4.53_AnonymousType
+		SccProjectUniqueName2 = 4.51_AnonymousMethod\\4.51_LambdaExpression.csproj
+		SccProjectName2 = 4.51_AnonymousMethod
+		SccLocalPath2 = 4.51_AnonymousMethod
+		SccProjectUniqueName3 = 4.60_GroupByAndProjection\\4.60_GroupByAndProjection.csproj
+		SccProjectName3 = 4.60_GroupByAndProjection
+		SccLocalPath3 = 4.60_GroupByAndProjection
+		SccProjectUniqueName4 = 4.58_MultipleFromStatements\\4.58_MultipleFromStatements.csproj
+		SccProjectName4 = 4.58_MultipleFromStatements
+		SccLocalPath4 = 4.58_MultipleFromStatements
+		SccProjectUniqueName5 = 4.62_Paging_SkipAndTake\\4.62_Paging_SkipAndTake.csproj
+		SccProjectName5 = 4.62_Paging_SkipAndTake
+		SccLocalPath5 = 4.62_Paging_SkipAndTake
+		SccProjectUniqueName6 = 4.65_QueryXml\\4.65_QueryXml.csproj
+		SccProjectName6 = 4.65_QueryXml
+		SccLocalPath6 = 4.65_QueryXml
+		SccProjectUniqueName7 = 4.66_QueryXml_WhereAndOrderBy\\4.66_QueryXml_WhereAndOrderBy.csproj
+		SccProjectName7 = 4.66_QueryXml_WhereAndOrderBy
+		SccLocalPath7 = 4.66_QueryXml_WhereAndOrderBy
+		SccProjectUniqueName8 = 4.67_CreateXml\\4.67_CreateXml.csproj
+		SccProjectName8 = 4.67_CreateXml
+		SccLocalPath8 = 4.67_CreateXml
+		SccProjectUniqueName9 = 4.68_UpdateXml\\4.68_UpdateXml.csproj
+		SccProjectName9 = 4.68_UpdateXml
+		SccLocalPath9 = 4.68_UpdateXml
+	EndGlobalSection
+EndGlobal

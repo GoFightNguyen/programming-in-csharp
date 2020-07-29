@@ -1,0 +1,130 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.75_Delegates_UsingADelegate", "1.75_Delegates_UsingADelegate\1.75_Delegates_UsingADelegate.csproj", "{FCBE007C-5653-4314-AB20-DE7FA05AC1E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.77_Delegates_Covariance", "1.77_Delegates_Covariance\1.77_Delegates_Covariance.csproj", "{DA0A5825-A850-4F21-83FA-8E6ED243D581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.78_Delegates_Contravariance", "1.78_Delegates_Contravariance\1.78_Delegates_Contravariance.csproj", "{D3A8897D-22AE-4BE9-9C64-A6D87147532C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.76_Delegates_Multicasting", "1.76_Delegates_Multicasting\1.76_Delegates_Multicasting.csproj", "{29374C2D-D77A-48E7-B39B-79222189C0ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.79_Lambda_UsingLambdaToCreateADelegate", "1.79_Lambda_UsingLambdaToCreateADelegate\1.79_Lambda_UsingLambdaToCreateADelegate.csproj", "{2033EFB5-C342-42EF-A4F2-B889D7D9E9C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.81_ActionAndFunctionDelegate", "1.81_ActionAndFunctionDelegate\1.81_ActionAndFunctionDelegate.csproj", "{5D948784-F2C0-440F-8864-B7397B30EC45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.82_Events_UsingActionToExposeEvent", "1.82_Events_UsingActionToExposeEvent\1.82_Events_UsingActionToExposeEvent.csproj", "{241C2755-9F75-4D42-8A03-6FD49F65AEAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.83_Events_EventKeyword", "1.83_Events_EventKeyword\1.83_Events_EventKeyword.csproj", "{33CC12C0-15E3-4FBB-A39E-5DD61B66B34A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.84_Events_EventHandler", "1.84_Events_EventHandler\1.84_Events_EventHandler.csproj", "{F0ECC6CB-73F6-47E9-BB25-409C80378ADC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.85_Events_CustomEventAccessor", "1.85_Events_CustomEventAccessor\1.85_Events_CustomEventAccessor.csproj", "{812E6AF0-E04E-44E2-9CEE-266A6AF41D75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.86_Events_Exception", "1.86_Events_Exception\1.86_Events_Exception.csproj", "{B1BCC018-842B-4186-A2FA-0588CF782694}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.87_Events_ManuallyRaisingEventsWithExceptions", "1.87_Events_ManuallyRaisingEventsWithExceptions\1.87_Events_ManuallyRaisingEventsWithExceptions.csproj", "{2D63111C-F3D5-4FDA-B94E-027830261EF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCBE007C-5653-4314-AB20-DE7FA05AC1E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCBE007C-5653-4314-AB20-DE7FA05AC1E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCBE007C-5653-4314-AB20-DE7FA05AC1E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCBE007C-5653-4314-AB20-DE7FA05AC1E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA0A5825-A850-4F21-83FA-8E6ED243D581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA0A5825-A850-4F21-83FA-8E6ED243D581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA0A5825-A850-4F21-83FA-8E6ED243D581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA0A5825-A850-4F21-83FA-8E6ED243D581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3A8897D-22AE-4BE9-9C64-A6D87147532C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3A8897D-22AE-4BE9-9C64-A6D87147532C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3A8897D-22AE-4BE9-9C64-A6D87147532C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3A8897D-22AE-4BE9-9C64-A6D87147532C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29374C2D-D77A-48E7-B39B-79222189C0ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29374C2D-D77A-48E7-B39B-79222189C0ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29374C2D-D77A-48E7-B39B-79222189C0ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29374C2D-D77A-48E7-B39B-79222189C0ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2033EFB5-C342-42EF-A4F2-B889D7D9E9C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2033EFB5-C342-42EF-A4F2-B889D7D9E9C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2033EFB5-C342-42EF-A4F2-B889D7D9E9C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2033EFB5-C342-42EF-A4F2-B889D7D9E9C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D948784-F2C0-440F-8864-B7397B30EC45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D948784-F2C0-440F-8864-B7397B30EC45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D948784-F2C0-440F-8864-B7397B30EC45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D948784-F2C0-440F-8864-B7397B30EC45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{241C2755-9F75-4D42-8A03-6FD49F65AEAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{241C2755-9F75-4D42-8A03-6FD49F65AEAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{241C2755-9F75-4D42-8A03-6FD49F65AEAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{241C2755-9F75-4D42-8A03-6FD49F65AEAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33CC12C0-15E3-4FBB-A39E-5DD61B66B34A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33CC12C0-15E3-4FBB-A39E-5DD61B66B34A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33CC12C0-15E3-4FBB-A39E-5DD61B66B34A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33CC12C0-15E3-4FBB-A39E-5DD61B66B34A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0ECC6CB-73F6-47E9-BB25-409C80378ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0ECC6CB-73F6-47E9-BB25-409C80378ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0ECC6CB-73F6-47E9-BB25-409C80378ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0ECC6CB-73F6-47E9-BB25-409C80378ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{812E6AF0-E04E-44E2-9CEE-266A6AF41D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{812E6AF0-E04E-44E2-9CEE-266A6AF41D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{812E6AF0-E04E-44E2-9CEE-266A6AF41D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{812E6AF0-E04E-44E2-9CEE-266A6AF41D75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1BCC018-842B-4186-A2FA-0588CF782694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1BCC018-842B-4186-A2FA-0588CF782694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1BCC018-842B-4186-A2FA-0588CF782694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1BCC018-842B-4186-A2FA-0588CF782694}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D63111C-F3D5-4FDA-B94E-027830261EF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D63111C-F3D5-4FDA-B94E-027830261EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D63111C-F3D5-4FDA-B94E-027830261EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D63111C-F3D5-4FDA-B94E-027830261EF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 13
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://gofightnguyen.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = 1.75_Delegates_UsingADelegate\\1.75_Delegates_UsingADelegate.csproj
+		SccProjectName1 = 1.75_Delegates_UsingADelegate
+		SccLocalPath1 = 1.75_Delegates_UsingADelegate
+		SccProjectUniqueName2 = 1.77_Delegates_Covariance\\1.77_Delegates_Covariance.csproj
+		SccProjectName2 = 1.77_Delegates_Covariance
+		SccLocalPath2 = 1.77_Delegates_Covariance
+		SccProjectUniqueName3 = 1.78_Delegates_Contravariance\\1.78_Delegates_Contravariance.csproj
+		SccProjectName3 = 1.78_Delegates_Contravariance
+		SccLocalPath3 = 1.78_Delegates_Contravariance
+		SccProjectUniqueName4 = 1.76_Delegates_Multicasting\\1.76_Delegates_Multicasting.csproj
+		SccProjectName4 = 1.76_Delegates_Multicasting
+		SccLocalPath4 = 1.76_Delegates_Multicasting
+		SccProjectUniqueName5 = 1.79_Lambda_UsingLambdaToCreateADelegate\\1.79_Lambda_UsingLambdaToCreateADelegate.csproj
+		SccProjectName5 = 1.79_Lambda_UsingLambdaToCreateADelegate
+		SccLocalPath5 = 1.79_Lambda_UsingLambdaToCreateADelegate
+		SccProjectUniqueName6 = 1.81_ActionAndFunctionDelegate\\1.81_ActionAndFunctionDelegate.csproj
+		SccProjectName6 = 1.81_ActionAndFunctionDelegate
+		SccLocalPath6 = 1.81_ActionAndFunctionDelegate
+		SccProjectUniqueName7 = 1.82_Events_UsingActionToExposeEvent\\1.82_Events_UsingActionToExposeEvent.csproj
+		SccProjectName7 = 1.82_Events_UsingActionToExposeEvent
+		SccLocalPath7 = 1.82_Events_UsingActionToExposeEvent
+		SccProjectUniqueName8 = 1.83_Events_EventKeyword\\1.83_Events_EventKeyword.csproj
+		SccProjectName8 = 1.83_Events_EventKeyword
+		SccLocalPath8 = 1.83_Events_EventKeyword
+		SccProjectUniqueName9 = 1.84_Events_EventHandler\\1.84_Events_EventHandler.csproj
+		SccProjectName9 = 1.84_Events_EventHandler
+		SccLocalPath9 = 1.84_Events_EventHandler
+		SccProjectUniqueName10 = 1.85_Events_CustomEventAccessor\\1.85_Events_CustomEventAccessor.csproj
+		SccProjectName10 = 1.85_Events_CustomEventAccessor
+		SccLocalPath10 = 1.85_Events_CustomEventAccessor
+		SccProjectUniqueName11 = 1.86_Events_Exception\\1.86_Events_Exception.csproj
+		SccProjectName11 = 1.86_Events_Exception
+		SccLocalPath11 = 1.86_Events_Exception
+		SccProjectUniqueName12 = 1.87_Events_ManuallyRaisingEventsWithExceptions\\1.87_Events_ManuallyRaisingEventsWithExceptions.csproj
+		SccProjectName12 = 1.87_Events_ManuallyRaisingEventsWithExceptions
+		SccLocalPath12 = 1.87_Events_ManuallyRaisingEventsWithExceptions
+	EndGlobalSection
+EndGlobal

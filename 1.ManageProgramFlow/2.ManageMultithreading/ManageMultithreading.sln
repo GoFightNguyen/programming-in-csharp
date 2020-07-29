@@ -1,0 +1,103 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.35_Synchronizing_NoSynchronization", "1.35_Synchronizing_NoSynchronization\1.35_Synchronizing_NoSynchronization.csproj", "{5607089B-6CBD-47CB-B05A-BCB3551655E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.36_Synchronizing_Lock", "1.36_Synchronizing_Lock\1.36_Synchronizing_Lock.csproj", "{2FFA96E3-798A-4A1C-AD0D-3B604641F3D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.37_Synchronizing_Deadlock", "1.37_Synchronizing_Deadlock\1.37_Synchronizing_Deadlock.csproj", "{58BF9217-85DC-43E5-BCE2-312A7AFC9D29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.40_Interlocked_Increment", "1.40_Interlocked_Increment\1.40_Interlocked_Increment.csproj", "{385942D2-20CF-471A-A0A6-8B535314E90C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.41_Interlocked_CompareExchange", "1.41_Interlocked_CompareExchange\1.41_Interlocked_CompareExchange.csproj", "{24D0933C-704A-40B3-8773-1AF412238E7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.42_Cancel_CancellationToken", "1.42_Cancel_CancellationToken\1.42_Cancel_CancellationToken.csproj", "{C60540EE-EA01-4859-8E89-851920CEA075}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.43_Cancel_OperationCanceledException", "1.43_Cancel_OperationCanceledException\1.43_Cancel_OperationCanceledException.csproj", "{996FF35F-F9BA-40C3-A514-F4362597F015}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.44_Cancel_ContinuationForCancel", "1.44_Cancel_ContinuationForCancel\1.44_Cancel_ContinuationForCancel.csproj", "{6692D0A1-644B-4292-B268-E74722D282E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.45_Cancel_Timeout", "1.45_Cancel_Timeout\1.45_Cancel_Timeout.csproj", "{0D036972-8E0A-4840-B509-DDB273F9EADD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5607089B-6CBD-47CB-B05A-BCB3551655E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5607089B-6CBD-47CB-B05A-BCB3551655E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5607089B-6CBD-47CB-B05A-BCB3551655E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5607089B-6CBD-47CB-B05A-BCB3551655E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FFA96E3-798A-4A1C-AD0D-3B604641F3D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FFA96E3-798A-4A1C-AD0D-3B604641F3D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FFA96E3-798A-4A1C-AD0D-3B604641F3D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FFA96E3-798A-4A1C-AD0D-3B604641F3D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58BF9217-85DC-43E5-BCE2-312A7AFC9D29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58BF9217-85DC-43E5-BCE2-312A7AFC9D29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58BF9217-85DC-43E5-BCE2-312A7AFC9D29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58BF9217-85DC-43E5-BCE2-312A7AFC9D29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{385942D2-20CF-471A-A0A6-8B535314E90C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{385942D2-20CF-471A-A0A6-8B535314E90C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{385942D2-20CF-471A-A0A6-8B535314E90C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{385942D2-20CF-471A-A0A6-8B535314E90C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24D0933C-704A-40B3-8773-1AF412238E7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24D0933C-704A-40B3-8773-1AF412238E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24D0933C-704A-40B3-8773-1AF412238E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24D0933C-704A-40B3-8773-1AF412238E7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C60540EE-EA01-4859-8E89-851920CEA075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C60540EE-EA01-4859-8E89-851920CEA075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C60540EE-EA01-4859-8E89-851920CEA075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C60540EE-EA01-4859-8E89-851920CEA075}.Release|Any CPU.Build.0 = Release|Any CPU
+		{996FF35F-F9BA-40C3-A514-F4362597F015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{996FF35F-F9BA-40C3-A514-F4362597F015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{996FF35F-F9BA-40C3-A514-F4362597F015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{996FF35F-F9BA-40C3-A514-F4362597F015}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6692D0A1-644B-4292-B268-E74722D282E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6692D0A1-644B-4292-B268-E74722D282E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6692D0A1-644B-4292-B268-E74722D282E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6692D0A1-644B-4292-B268-E74722D282E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D036972-8E0A-4840-B509-DDB273F9EADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D036972-8E0A-4840-B509-DDB273F9EADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D036972-8E0A-4840-B509-DDB273F9EADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D036972-8E0A-4840-B509-DDB273F9EADD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://gofightnguyen.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = 1.35_Synchronizing_NoSynchronization\\1.35_Synchronizing_NoSynchronization.csproj
+		SccProjectName1 = 1.35_Synchronizing_NoSynchronization
+		SccLocalPath1 = 1.35_Synchronizing_NoSynchronization
+		SccProjectUniqueName2 = 1.36_Synchronizing_Lock\\1.36_Synchronizing_Lock.csproj
+		SccProjectName2 = 1.36_Synchronizing_Lock
+		SccLocalPath2 = 1.36_Synchronizing_Lock
+		SccProjectUniqueName3 = 1.37_Synchronizing_Deadlock\\1.37_Synchronizing_Deadlock.csproj
+		SccProjectName3 = 1.37_Synchronizing_Deadlock
+		SccLocalPath3 = 1.37_Synchronizing_Deadlock
+		SccProjectUniqueName4 = 1.40_Interlocked_Increment\\1.40_Interlocked_Increment.csproj
+		SccProjectName4 = 1.40_Interlocked_Increment
+		SccLocalPath4 = 1.40_Interlocked_Increment
+		SccProjectUniqueName5 = 1.41_Interlocked_CompareExchange\\1.41_Interlocked_CompareExchange.csproj
+		SccProjectName5 = 1.41_Interlocked_CompareExchange
+		SccLocalPath5 = 1.41_Interlocked_CompareExchange
+		SccProjectUniqueName6 = 1.42_Cancel_CancellationToken\\1.42_Cancel_CancellationToken.csproj
+		SccProjectName6 = 1.42_Cancel_CancellationToken
+		SccLocalPath6 = 1.42_Cancel_CancellationToken
+		SccProjectUniqueName7 = 1.43_Cancel_OperationCanceledException\\1.43_Cancel_OperationCanceledException.csproj
+		SccProjectName7 = 1.43_Cancel_OperationCanceledException
+		SccLocalPath7 = 1.43_Cancel_OperationCanceledException
+		SccProjectUniqueName8 = 1.44_Cancel_ContinuationForCancel\\1.44_Cancel_ContinuationForCancel.csproj
+		SccProjectName8 = 1.44_Cancel_ContinuationForCancel
+		SccLocalPath8 = 1.44_Cancel_ContinuationForCancel
+		SccProjectUniqueName9 = 1.45_Cancel_Timeout\\1.45_Cancel_Timeout.csproj
+		SccProjectName9 = 1.45_Cancel_Timeout
+		SccLocalPath9 = 1.45_Cancel_Timeout
+	EndGlobalSection
+EndGlobal

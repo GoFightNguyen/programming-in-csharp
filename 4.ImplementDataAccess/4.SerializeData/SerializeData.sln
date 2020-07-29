@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.70_XmlSerializer", "4.70_XmlSerializer\4.70_XmlSerializer.csproj", "{2ECCC8DB-3AF4-4E73-BC9D-0B5916A2684E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.71_XmlSerializer_XmlAttributes", "4.71_XmlSerializer_XmlAttributes\4.71_XmlSerializer_XmlAttributes.csproj", "{45436C96-0726-42A3-A532-E51D2C168ECC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.72_XmlSerializer_SerializeDerivedType", "4.72_XmlSerializer_SerializeDerivedType\4.72_XmlSerializer_SerializeDerivedType.csproj", "{B9D61555-5D6A-4E22-AAFF-37C0F8C31475}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.73_BinaryFormatter", "4.73_BinaryFormatter\4.73_BinaryFormatter.csproj", "{91647A7F-40C0-40FC-A391-C2D928A35192}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.75_BinaryFormatter_InfluencingProcess", "4.75_BinaryFormatter_InfluencingProcess\4.75_BinaryFormatter_InfluencingProcess.csproj", "{0BA5F3C8-4F60-4E88-9BAE-CF13C8C752C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.76_ISerializable", "4.76_ISerializable\4.76_ISerializable.csproj", "{5340545E-C0F2-4E08-ACFA-1BB57EEAD429}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.78_DataContractSerializer", "4.78_DataContractSerializer\4.78_DataContractSerializer.csproj", "{816CE6CB-0F09-4BC1-AB97-FA314855CFF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.79_DataContractJsonSerializer", "4.79_DataContractJsonSerializer\4.79_DataContractJsonSerializer.csproj", "{D54EB70E-B296-46DB-8452-7AC727A81FA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ECCC8DB-3AF4-4E73-BC9D-0B5916A2684E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ECCC8DB-3AF4-4E73-BC9D-0B5916A2684E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ECCC8DB-3AF4-4E73-BC9D-0B5916A2684E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ECCC8DB-3AF4-4E73-BC9D-0B5916A2684E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45436C96-0726-42A3-A532-E51D2C168ECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45436C96-0726-42A3-A532-E51D2C168ECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45436C96-0726-42A3-A532-E51D2C168ECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45436C96-0726-42A3-A532-E51D2C168ECC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9D61555-5D6A-4E22-AAFF-37C0F8C31475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9D61555-5D6A-4E22-AAFF-37C0F8C31475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9D61555-5D6A-4E22-AAFF-37C0F8C31475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9D61555-5D6A-4E22-AAFF-37C0F8C31475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91647A7F-40C0-40FC-A391-C2D928A35192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91647A7F-40C0-40FC-A391-C2D928A35192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91647A7F-40C0-40FC-A391-C2D928A35192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91647A7F-40C0-40FC-A391-C2D928A35192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BA5F3C8-4F60-4E88-9BAE-CF13C8C752C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BA5F3C8-4F60-4E88-9BAE-CF13C8C752C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BA5F3C8-4F60-4E88-9BAE-CF13C8C752C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BA5F3C8-4F60-4E88-9BAE-CF13C8C752C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5340545E-C0F2-4E08-ACFA-1BB57EEAD429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5340545E-C0F2-4E08-ACFA-1BB57EEAD429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5340545E-C0F2-4E08-ACFA-1BB57EEAD429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5340545E-C0F2-4E08-ACFA-1BB57EEAD429}.Release|Any CPU.Build.0 = Release|Any CPU
+		{816CE6CB-0F09-4BC1-AB97-FA314855CFF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{816CE6CB-0F09-4BC1-AB97-FA314855CFF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{816CE6CB-0F09-4BC1-AB97-FA314855CFF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{816CE6CB-0F09-4BC1-AB97-FA314855CFF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D54EB70E-B296-46DB-8452-7AC727A81FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D54EB70E-B296-46DB-8452-7AC727A81FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D54EB70E-B296-46DB-8452-7AC727A81FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D54EB70E-B296-46DB-8452-7AC727A81FA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://gofightnguyen.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = 4.70_XmlSerializer\\4.70_XmlSerializer.csproj
+		SccProjectName1 = 4.70_XmlSerializer
+		SccLocalPath1 = 4.70_XmlSerializer
+		SccProjectUniqueName2 = 4.71_XmlSerializer_XmlAttributes\\4.71_XmlSerializer_XmlAttributes.csproj
+		SccProjectName2 = 4.71_XmlSerializer_XmlAttributes
+		SccLocalPath2 = 4.71_XmlSerializer_XmlAttributes
+		SccProjectUniqueName3 = 4.72_XmlSerializer_SerializeDerivedType\\4.72_XmlSerializer_SerializeDerivedType.csproj
+		SccProjectName3 = 4.72_XmlSerializer_SerializeDerivedType
+		SccLocalPath3 = 4.72_XmlSerializer_SerializeDerivedType
+		SccProjectUniqueName4 = 4.73_BinaryFormatter\\4.73_BinaryFormatter.csproj
+		SccProjectName4 = 4.73_BinaryFormatter
+		SccLocalPath4 = 4.73_BinaryFormatter
+		SccProjectUniqueName5 = 4.76_ISerializable\\4.76_ISerializable.csproj
+		SccProjectName5 = 4.76_ISerializable
+		SccLocalPath5 = 4.76_ISerializable
+		SccProjectUniqueName6 = 4.75_BinaryFormatter_InfluencingProcess\\4.75_BinaryFormatter_InfluencingProcess.csproj
+		SccProjectName6 = 4.75_BinaryFormatter_InfluencingProcess
+		SccLocalPath6 = 4.75_BinaryFormatter_InfluencingProcess
+		SccProjectUniqueName7 = 4.78_DataContractSerializer\\4.78_DataContractSerializer.csproj
+		SccProjectName7 = 4.78_DataContractSerializer
+		SccLocalPath7 = 4.78_DataContractSerializer
+		SccProjectUniqueName8 = 4.79_DataContractJsonSerializer\\4.79_DataContractJsonSerializer.csproj
+		SccProjectName8 = 4.79_DataContractJsonSerializer
+		SccLocalPath8 = 4.79_DataContractJsonSerializer
+	EndGlobalSection
+EndGlobal

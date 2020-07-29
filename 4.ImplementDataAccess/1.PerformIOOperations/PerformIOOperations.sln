@@ -1,0 +1,130 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.01_Drives", "4.01_Drives\4.01_Drives.csproj", "{9C79168A-508C-43AB-BA8D-C421BB4008CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.02_Directory_Create", "4.02_Directory_Create\4.02_Directory_Create.csproj", "{398DC362-D8EE-41AD-BF47-8F7771D2BCAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.03_Directory_Delete", "4.03_Directory_Delete\4.03_Directory_Delete.csproj", "{188BA87E-5D7C-4DB7-9630-ABD6159437AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.04_Directory_AccessControl", "4.04_Directory_AccessControl\4.04_Directory_AccessControl.csproj", "{6A25B8F2-08EB-44AE-8DFB-89E44D4AED94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.05_Directory_SubdirectoriesAndSearchPattern", "4.05_Directory_SubdirectoriesAndSearchPattern\4.05_Directory_SubdirectoriesAndSearchPattern.csproj", "{76D21E62-AE4E-4606-A0DB-0B8CB6074434}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.06_Directory_Move", "4.06_Directory_Move\4.06_Directory_Move.csproj", "{8B1BF12B-1C2D-4511-99ED-C7CE8E21FA32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.13_Path_CombineAndParse", "4.13_Path_CombineAndParse\4.13_Path_CombineAndParse.csproj", "{719B368D-3DED-4DBC-A500-DBD72337AAED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.14_FileStream", "4.14_FileStream\4.14_FileStream.csproj", "{B464CDCD-6B8E-4A02-A60C-ADB8480B12EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.15_StreamWriter", "4.15_StreamWriter\4.15_StreamWriter.csproj", "{20BB1DF2-2345-4B82-91D8-F40E4C834768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.16_StreamReader", "4.16_StreamReader\4.16_StreamReader.csproj", "{AD0FAC2C-9BEA-456D-A48D-A36B9B1EF3C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.22_WebRequest", "4.22_WebRequest\4.22_WebRequest.csproj", "{6B875075-A561-458D-806F-9379E86D5E7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.26_IO_Parallel", "4.26_IO_Parallel\4.26_IO_Parallel.csproj", "{CC859D82-3300-45FD-B187-FBF0CA2B0233}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C79168A-508C-43AB-BA8D-C421BB4008CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C79168A-508C-43AB-BA8D-C421BB4008CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C79168A-508C-43AB-BA8D-C421BB4008CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C79168A-508C-43AB-BA8D-C421BB4008CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{398DC362-D8EE-41AD-BF47-8F7771D2BCAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{398DC362-D8EE-41AD-BF47-8F7771D2BCAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{398DC362-D8EE-41AD-BF47-8F7771D2BCAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{398DC362-D8EE-41AD-BF47-8F7771D2BCAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{188BA87E-5D7C-4DB7-9630-ABD6159437AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{188BA87E-5D7C-4DB7-9630-ABD6159437AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{188BA87E-5D7C-4DB7-9630-ABD6159437AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{188BA87E-5D7C-4DB7-9630-ABD6159437AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A25B8F2-08EB-44AE-8DFB-89E44D4AED94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A25B8F2-08EB-44AE-8DFB-89E44D4AED94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A25B8F2-08EB-44AE-8DFB-89E44D4AED94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A25B8F2-08EB-44AE-8DFB-89E44D4AED94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76D21E62-AE4E-4606-A0DB-0B8CB6074434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D21E62-AE4E-4606-A0DB-0B8CB6074434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D21E62-AE4E-4606-A0DB-0B8CB6074434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D21E62-AE4E-4606-A0DB-0B8CB6074434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B1BF12B-1C2D-4511-99ED-C7CE8E21FA32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B1BF12B-1C2D-4511-99ED-C7CE8E21FA32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B1BF12B-1C2D-4511-99ED-C7CE8E21FA32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B1BF12B-1C2D-4511-99ED-C7CE8E21FA32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{719B368D-3DED-4DBC-A500-DBD72337AAED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{719B368D-3DED-4DBC-A500-DBD72337AAED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{719B368D-3DED-4DBC-A500-DBD72337AAED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{719B368D-3DED-4DBC-A500-DBD72337AAED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B464CDCD-6B8E-4A02-A60C-ADB8480B12EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B464CDCD-6B8E-4A02-A60C-ADB8480B12EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B464CDCD-6B8E-4A02-A60C-ADB8480B12EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B464CDCD-6B8E-4A02-A60C-ADB8480B12EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20BB1DF2-2345-4B82-91D8-F40E4C834768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20BB1DF2-2345-4B82-91D8-F40E4C834768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20BB1DF2-2345-4B82-91D8-F40E4C834768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20BB1DF2-2345-4B82-91D8-F40E4C834768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD0FAC2C-9BEA-456D-A48D-A36B9B1EF3C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0FAC2C-9BEA-456D-A48D-A36B9B1EF3C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD0FAC2C-9BEA-456D-A48D-A36B9B1EF3C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD0FAC2C-9BEA-456D-A48D-A36B9B1EF3C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B875075-A561-458D-806F-9379E86D5E7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B875075-A561-458D-806F-9379E86D5E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B875075-A561-458D-806F-9379E86D5E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B875075-A561-458D-806F-9379E86D5E7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC859D82-3300-45FD-B187-FBF0CA2B0233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC859D82-3300-45FD-B187-FBF0CA2B0233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC859D82-3300-45FD-B187-FBF0CA2B0233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC859D82-3300-45FD-B187-FBF0CA2B0233}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 13
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://gofightnguyen.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = 4.01_Drives\\4.01_Drives.csproj
+		SccProjectName1 = 4.01_Drives
+		SccLocalPath1 = 4.01_Drives
+		SccProjectUniqueName2 = 4.02_Directory_Create\\4.02_Directory_Create.csproj
+		SccProjectName2 = 4.02_Directory_Create
+		SccLocalPath2 = 4.02_Directory_Create
+		SccProjectUniqueName3 = 4.03_Directory_Delete\\4.03_Directory_Delete.csproj
+		SccProjectName3 = 4.03_Directory_Delete
+		SccLocalPath3 = 4.03_Directory_Delete
+		SccProjectUniqueName4 = 4.04_Directory_AccessControl\\4.04_Directory_AccessControl.csproj
+		SccProjectName4 = 4.04_Directory_AccessControl
+		SccLocalPath4 = 4.04_Directory_AccessControl
+		SccProjectUniqueName5 = 4.05_Directory_SubdirectoriesAndSearchPattern\\4.05_Directory_SubdirectoriesAndSearchPattern.csproj
+		SccProjectName5 = 4.05_Directory_SubdirectoriesAndSearchPattern
+		SccLocalPath5 = 4.05_Directory_SubdirectoriesAndSearchPattern
+		SccProjectUniqueName6 = 4.06_Directory_Move\\4.06_Directory_Move.csproj
+		SccProjectName6 = 4.06_Directory_Move
+		SccLocalPath6 = 4.06_Directory_Move
+		SccProjectUniqueName7 = 4.13_Path_CombineAndParse\\4.13_Path_CombineAndParse.csproj
+		SccProjectName7 = 4.13_Path_CombineAndParse
+		SccLocalPath7 = 4.13_Path_CombineAndParse
+		SccProjectUniqueName8 = 4.14_FileStream\\4.14_FileStream.csproj
+		SccProjectName8 = 4.14_FileStream
+		SccLocalPath8 = 4.14_FileStream
+		SccProjectUniqueName9 = 4.15_StreamWriter\\4.15_StreamWriter.csproj
+		SccProjectName9 = 4.15_StreamWriter
+		SccLocalPath9 = 4.15_StreamWriter
+		SccProjectUniqueName10 = 4.16_StreamReader\\4.16_StreamReader.csproj
+		SccProjectName10 = 4.16_StreamReader
+		SccLocalPath10 = 4.16_StreamReader
+		SccProjectUniqueName11 = 4.22_WebRequest\\4.22_WebRequest.csproj
+		SccProjectName11 = 4.22_WebRequest
+		SccLocalPath11 = 4.22_WebRequest
+		SccProjectUniqueName12 = 4.26_IO_Parallel\\4.26_IO_Parallel.csproj
+		SccProjectName12 = 4.26_IO_Parallel
+		SccLocalPath12 = 4.26_IO_Parallel
+	EndGlobalSection
+EndGlobal
